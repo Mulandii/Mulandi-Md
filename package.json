@@ -1,1 +1,20 @@
-
+{
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^6.0.1",
+    "calculator-engine": "^0.1.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.6.0",
+    "fs": "^0.0.1-security",
+    "genius-lyrics": "^4.4.3",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.4",
+    "os": "^0.1.2",
+    "performance-now": "^2.1.0",
+    "pino": "^8.14.1",
+    "qrcode-terminal": "^0.12.0",
+    "spinnies": "^0.5.1",
+    "util": "^0.12.5",
+    "wikipedia": "^2.1.0"
+  }
+}
