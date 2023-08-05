@@ -1,15 +1,16 @@
 <p align="center">
-<img src="./database/kaveesha.gif" alt="Loading..." width="320"/>
+<img src="./database/kaveesha.gif" alt="Loading👍..." width="320"/>
 <p align="center">
 
 <p align="center">
-    <a href="https://github.com/Chamodya-official">
+    <a href="https://github.com/Mulandii">
         <img
-            src="https://readme-typing-svg.herokuapp.com?size=33&width=1000&lines=Welcome+To+TESLA+TECH...+Thank+You+For+Visiting+us...."
-            alt="Typing SVG"
+            src="https://readme-typing-svg.herokuapp.com?size=33&width=1000&lines=Welcome+To+MULANDI+TECH...+Thank+You+For+Visiting+us...."
+            alt="SASSY NOT TRASHY"
         />
     </a>
 </p>
+
 
 
 
@@ -24,12 +25,12 @@ There are 3 features, getting an AutostatusView response to your contacts automa
 Before installing whatsapp lightweight minibot makesure you fork this repository
 Cheers enjoy
 
-🙂➾ [Fork This Repo By Clicking Here](https://github.com/elize21/HACK1/fork/)
+🙂➾ [Fork This Repo By Clicking Here](https://github.com/Mulandii/Mulandi001/fork/)
 
 **Install Via Termux ✅**
 
 Download aplication termux  :
-Ensure your connected to network while running termux/VPS
+Ensure your connected to network while running termux/VPS😉
 [DOWNLOAD Termux](https://f-droid.org/en/packages/com.termux/)
 
 
@@ -41,8 +42,8 @@ $ pkg install wget
 $ pkg install ffmpeg
 $ pkg install nodejs
 $ pkg install git nodejs -y
-$ git clone https://github.com/elize21/HACK1 (here you paste your repository link you forked)
-$ cd HACK1 (your repository name)
+$ git clone https://github.com/Mulandii/Mulandi001 (here you paste your repository link you forked)
+$ cd Mulandi001 (your repository name)
 $ rm -rf session
 If you did not install the node modules manually then proceed with the command below.
 $ npm install
@@ -61,8 +62,8 @@ $ sudo apt install wget
 $ sudo apt install ffmpeg
 $ sudo apt install nodejs
 $ sudo apt install git nodejs -y
-$ git clone https://github.com/elize21/HACK1 (paste your repository after forking here)
-$ cd HACK1 (YOUR REPO NAME)
+$ git clone https://github.com/Mulandii/Mulandi001 (paste your repository after forking here)
+$ cd Mulandi001 (YOUR REPO NAME)
 $ rm -rf session
 If you did not install the node modules manually then proceed with the command below.
 $ npm install
@@ -76,10 +77,10 @@ it will automaticaly generate session-ID (creds)
 On github upload your creds generated from termux to session folder
 
 #### TOTAL REPO VIEWS😎
-![Visitor Count](https://profile-counter.glitch.me/elize21/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/Mulandii/count.svg)
 
 # **Regards** 
-                           wa.me/+254701118127
+                           wa.me/+254768827492
 # **Connect to Heroku**
 - Create your heroku Account [Here](https://id.heroku.com/login) and connect your Bot
 # _Enable dynos_
@@ -91,10 +92,10 @@ Manually install ```node_modules``` or use the command ```npm install``` to inst
 ```bash
 
 ## License
-[MIT License]((https://github.com/elize21/HACK1)/blob/main/LICENSE)
+[MIT License]((https://github.com/Mulandii/Mulandi001)/blob/main/LICENSE)
 
-Copyright (c) 2023 ##HACK1 
+Copyright (c) 2023 #MULANDI Tech
 
 
-## _TESLAS_MASTERMIND_
+## _*MULANDI*_
 
