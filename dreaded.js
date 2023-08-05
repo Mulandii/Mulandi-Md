@@ -85,7 +85,7 @@ async function main() {
               sock.sendPresenceUpdate('recording', m.chat)
     }      if (m.chat.endsWith('broadcast')) {
     sock.readMessages([m.key]);
-      const status = 'undefined ilonka'
+      const status = 'I used to think am just dreaming '
 await sock.updateProfileStatus(status);
     }
    
