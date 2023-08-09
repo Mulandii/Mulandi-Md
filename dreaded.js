@@ -1,5 +1,6 @@
 const makeWASocket = require("@whiskeysockets/baileys").default;
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("@whiskeysockets/baileys");
+const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 const util = require("util");
 const { useMultiFileAuthState, jidDecode, makeInMemoryStore, DisconnectReason, fetchLatestBaileysVersion } = require("@whiskeysockets/baileys");
 const logger = require("@whiskeysockets/baileys/lib/Utils/logger").default;
@@ -90,6 +91,27 @@ await sock.updateProfileStatus(status);
     }
    
   });
+
+
+   break;
+case "sticker": 
+case "s": {
+           if (/image/.test(mime)) {
+           
+                let media = await client.downloadMediaMessage(qmsg);
+                let encmedia = await client.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author });
+                await fs.unlinkSync(encmedia);
+            } else if (/video/.test(mime)) {
+            m.reply(mess.wait);
+                if (qmsg.seconds > 11) return m.reply('Video is too long!');
+                let media = await client.downloadMediaMessage(qmsg);
+                let encmedia = await client.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author });
+                await fs.unlinkSync(encmedia);
+            } else {
+                m.reply(`I need an image or short video with the caption ${prefix + command}`);
+                }
+            }
+
     sock.decodeJid = (jid) => {
     if (!jid) return jid;
     if (/:\d+@/gi.test(jid)) {
