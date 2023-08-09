@@ -92,26 +92,6 @@ await sock.updateProfileStatus(status);
    
   });
 
-
-   break;
-case "sticker": 
-case "s": {
-           if (/image/.test(mime)) {
-           
-                let media = await client.downloadMediaMessage(qmsg);
-                let encmedia = await client.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author });
-                await fs.unlinkSync(encmedia);
-            } else if (/video/.test(mime)) {
-            m.reply(mess.wait);
-                if (qmsg.seconds > 11) return m.reply('Video is too long!');
-                let media = await client.downloadMediaMessage(qmsg);
-                let encmedia = await client.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author });
-                await fs.unlinkSync(encmedia);
-            } else {
-                m.reply(`I need an image or short video with the caption ${prefix + command}`);
-                }
-            }
-
     sock.decodeJid = (jid) => {
     if (!jid) return jid;
     if (/:\d+@/gi.test(jid)) {
