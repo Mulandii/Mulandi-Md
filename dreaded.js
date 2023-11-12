@@ -66,7 +66,7 @@ async function main() {
       level: 'silent'
     }),
     printQRInTerminal: true,
-    browser: ['⿻ 乂𝐌𝐮𝐥𝐚𝐧𝐝𝐢 ✗⭗乂⿻', '🐬', '1.0.0'],
+    browser: ['乂𝐌𝐮𝐥𝐚𝐧𝐝𝐢 ✗', '🐬', '1.0.0'],
     auth: state,
     qrTimeout: 20000000,
   });
