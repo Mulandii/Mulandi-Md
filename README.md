@@ -5,7 +5,7 @@
 <p align="center">
     <a href="https://github.com/Mulandii">
         <img
-            src="https://readme-typing-svg.herokuapp.com?size=33&width=1000&lines=Welcome+To+MULANDI+TECH...+Thank+You+For+Visiting+us...."
+            src="https://readme-typing-svg.herokuapp.com?size=33&width=1000&lines=Welcome+To+MULANDI+TECH...+Thank+You+For+Visiting+us..."
             alt="SASSY NOT TRASHY"
         />
     </a>
