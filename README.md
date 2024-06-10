@@ -1,5 +1,5 @@
 
-<p> Sadly, this repo is not maintaines anymore. 🥲. <p>
+<p> Sadly, this repo is not maintained anymore. 🥲. <p>
 <p align="center">
 <img src="./database/kaveesha.gif" alt="Loading👍..." width="320"/>
 <p align="center">
